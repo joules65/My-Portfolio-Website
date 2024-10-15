@@ -6,26 +6,9 @@ I created this for my own personal portfolio website.  If you like what you see,
 - **Lazy loading of images**
 - **Mobile responsive**
 
-Check it out! 👉 [Demo](https://stevevangdev.com/) 🥳
+Check it out! 👉 [Demo](https://vercel.live/link/my-portfoio-joules65s-projects.vercel.app?via=project-dashboard-alias-list&p=1) 🥳
 
-## Table of Contents
 
-1. [Examples](#Examples)
-2. [Installation](#Installation)
-3. [Tech Stack](#Tech-Stack)
-4. [Motivation](#Motivation)
-5. [Accessibility](#Accessibility)
-6. [License](#License)
-
-## Examples
-
-![desktop screenshot example 1](https://res.cloudinary.com/dvrs8gsj3/image/upload/v1666691462/personal-portfolio-template/portfolio-example-1_nki8me.png)
-
-![desktop screenshot example 2](https://res.cloudinary.com/dvrs8gsj3/image/upload/v1666691462/personal-portfolio-template/portfolio-example-2_ealbgv.png)
-
-![desktop screenshot example 3](https://res.cloudinary.com/dvrs8gsj3/image/upload/v1666691462/personal-portfolio-template/portfolio-example-3_jb2wls.png)
-
-![desktop screenshot example 4](https://res.cloudinary.com/dvrs8gsj3/image/upload/v1666691462/personal-portfolio-template/portfolio-example-4_b3p8hp.png)
 
 ## Installation
 
@@ -64,31 +47,16 @@ npm run start
 - Sass CSS
 - FontAwesome Icons
 
-## Motivation
-
-I love websites with bold designs, flashy transitions and long gorgoeus scrolling animations (I'm looking at you Apple). However, what I've come to learn is that most people cannot stand that stuff. People have short attention spans and you risk users skipping your content if your website is confusing and annoying. Some things that typically result in a bad user experience (aside from long load times, poor color schemes, and unintuitive navigation/layout) are:
-
-- Scroll hijacking (for more info, click [here](https://alvarotrigo.com/blog/what-is-scroll-hijacking/))
-- Slow animation/transitions (anything over 1000ms)
-- Distracting animated backgrounds
-
-I tried my best to adhere to these principles when building this site. It's a no-nonsense site, while still remaining modern in its look and performance.
-
-I chose Next.js because it provides some great features out of the box that makes for the best user and developer experience. Here are some of the features that I love:
 
 - **SEO-friendly**: Rich HTML with SSR
 - **Performance Optimization**: Images are lazy loaded, cached, and many other optimizing features!
 - **Easy Deploy**: If you choose to host with Vercel, there is no easier and faster way to get your site live
 
-## Accessibility
-
-Last but not least, I coded this project with accessibility in mind, but I'm by no means an expert. If you use this template for your own project, I encourage you to continue to improve the accessibility where it is applicable.
-
 ## License
 
 MIT License
 
-Copyright (c) 2022 Steve Vang
+Copyright (c) 2022 David Achibiri
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

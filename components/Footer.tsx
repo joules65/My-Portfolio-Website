@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <span>
-        Code &amp; design by <strong>David Achibiri</strong> with inspiration from Steve Wang.
+        Made By Me
       </span>
       <span>
         Interested in using this template?
