@@ -36,7 +36,7 @@ const Home: NextPage = () => {
               name='description'
               content='Personal Portfolio Website by David Achibiri'
             />
-            <link rel='icon' href='/favicon.icon' />
+            <link rel='icon' href='/favicon.ico' />
             <script
               src='https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.4.0/smoothscroll.min.js'
               async
