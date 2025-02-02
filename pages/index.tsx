@@ -16,6 +16,8 @@ import Footer from '@components/Footer';
 // fonts
 import '@fontsource/archivo-black';
 import '@fontsource/ubuntu';
+import ImageGallery from '@components/ImageGallery';
+import Images from '@sections/Images';
 
 const Home: NextPage = () => {
   const [theme, setTheme] = useState(ThemeOptions.Dark);
@@ -49,6 +51,7 @@ const Home: NextPage = () => {
             <Intro />
             <Skills />
             <Projects />
+            <Images/>
             <Contact />
           </main>
 

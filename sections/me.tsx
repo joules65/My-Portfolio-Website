@@ -123,6 +123,7 @@ export const socialLinks: SocialLinkType[] = [
 // add your project data object into this array
 
 export const projectData: ProjectCardType[] = [
+  
   {
     title: 'XENIAPAY',
     banner:
@@ -152,11 +153,66 @@ export const projectData: ProjectCardType[] = [
       },
     ],
   },
+
+  {
+    title: 'Ethabitat',
+    banner:
+      'https://res.cloudinary.com/dhkscpkf5/image/upload/v1738525383/ETHABITAT_rwwwpy.png',
+    bannerAlt: 'Ethabitat Banner',
+    summary:
+      "Ethabitat is a real estate platform that aims to leverage blockchain technology to facilitate real estate transactions.",
+    media: [
+      {
+        src: 'https://res.cloudinary.com/dhkscpkf5/image/upload/v1738525383/ETHABITAT_rwwwpy.png',
+        alt: 'Ethabitat Demo',
+        width: 530,
+        height: 300,
+      },
+    ],
+    tags: ['React', 'Typescript', 'TailwindCSS'],
+    links: [
+      {
+        name: 'site',
+        path: 'https://ethabitat1.vercel.app',
+        icon: <FontAwesomeIcon icon={faUpRightFromSquare} />,
+      }, ]
+    },
+
+    {
+      title: 'Kingdom Consultancy',
+      banner:
+        'https://res.cloudinary.com/dhkscpkf5/image/upload/v1738522875/Screenshot_2025-02-02_204534_dwngd1.png',
+      bannerAlt: 'Kingdom Consultancy',
+      summary:
+        "A freelance project for a consultancy service that boosts SMEs.",
+      media: [
+        {
+          src: 'https://res.cloudinary.com/dhkscpkf5/image/upload/v1738526315/Screenshot_2025-02-02_215821_cy92ec.png',
+          alt: 'SME',
+          width: 900,
+          height: 634,
+        },
+      ],
+      tags: ['react-native', 'typescript', 'vercel', 'web'],
+      links: [
+        {
+          name: 'site',
+          path: 'https://kingdom-consultancy.vercel.app/',
+          icon: <FontAwesomeIcon icon={faUpRightFromSquare} />,
+        },
+        {
+          name: 'code',
+          path: 'https://github.com/joule65/Kingdom-Consultancy',
+          icon: <FontAwesomeIcon icon={faCodeBranch} />,
+        },
+      ],
+    },
+
   {
     title: 'LoudAm',
     banner:
       'https://res.cloudinary.com/dhkscpkf5/image/upload/v1729004540/icon_x6y3mq.png',
-    bannerAlt: 'TLoudAm',
+    bannerAlt: 'LoudAm',
     summary:
       "LoudAm is a music streaming application that pulls its data from Spotify API. ",
     media: [
@@ -191,7 +247,7 @@ export const projectData: ProjectCardType[] = [
     media: [
       {
         src: 'https://res.cloudinary.com/dhkscpkf5/image/upload/v1729010583/Dark_Green_Chalk_Board_Good_Luck_Card_akuzdx.png',
-        alt: 'UI DESIGN',
+        alt: 'SME',
         width: 900,
         height: 634,
       },
@@ -220,7 +276,7 @@ export const projectData: ProjectCardType[] = [
     media: [
       {
         src: 'https://res.cloudinary.com/dhkscpkf5/image/upload/v1729011665/Screenshot_2024-10-15_180034_f0oaqp.png',
-        alt: 'product page example',
+        alt: 'weather app',
         width: 1283,
         height: 650,
         mobileImg: {
@@ -229,50 +285,19 @@ export const projectData: ProjectCardType[] = [
           height: 650,
         },
       },
-      {
-        src: 'https://res.cloudinary.com/dvrs8gsj3/image/upload/c_scale,h_650/v1664362559/kutsu-eCommerce/demo-2_iqoqsr.jpg',
-        alt: 'all products example',
-        width: 1283,
-        height: 650,
-        mobileImg: {
-          src: 'https://res.cloudinary.com/dvrs8gsj3/image/upload/c_scale,h_650/v1664881764/kutsu-eCommerce/kutsu-mobile-demo1_ruowh2.png',
-          width: 365,
-          height: 650,
-        },
-      },
-      {
-        src: 'https://res.cloudinary.com/dvrs8gsj3/image/upload/c_scale,h_650/v1664362558/kutsu-eCommerce/demo-3_fhykgr.jpg',
-        alt: 'shopping cart example',
-        width: 1283,
-        height: 650,
-        mobileImg: {
-          src: 'https://res.cloudinary.com/dvrs8gsj3/image/upload/c_scale,h_650/v1664881765/kutsu-eCommerce/kutsu-mobile-demo3_frxk7h.png',
-          width: 365,
-          height: 650,
-        },
-      },
-      {
-        src: 'https://res.cloudinary.com/dvrs8gsj3/image/upload/c_scale,h_650/v1664362558/kutsu-eCommerce/demo-4_uy1dlv.jpg',
-        alt: 'checkout page example',
-        width: 1283,
-        height: 650,
-        mobileImg: {
-          src: 'https://res.cloudinary.com/dvrs8gsj3/image/upload/c_scale,h_650/v1664881766/kutsu-eCommerce/kutsu-mobile-demo4_hbjaqc.png',
-          width: 365,
-          height: 650,
-        },
-      },
+      
+      
     ],
     tags: ['react', 'typescript', 'dinero', 'react-router'],
     links: [
       {
         name: 'site',
-        path: 'https://kutsu-shop.netlify.app/',
+        path: '/',
         icon: <FontAwesomeIcon icon={faUpRightFromSquare} />,
       },
       {
         name: 'code',
-        path: 'https://github.com/vanquiche/kutsu-eCommerce',
+        path: 'https://github.com/joules65/TrueWeather',
         icon: <FontAwesomeIcon icon={faCodeBranch} />,
       },
     ],

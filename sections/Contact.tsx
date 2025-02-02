@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     // change your title and section id
-    <SectionCard id='contact' title='CONTACT' page='04'>
+    <SectionCard id='contact' title='CONTACT' page='05'>
       <>
         <BgTitle title='CONTACT' />
         <p className={styles.articleDescription}>
