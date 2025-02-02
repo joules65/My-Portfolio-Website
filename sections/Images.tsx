@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionCard from '@components/SectionCard'
-import ImageGallery from "react-image-gallery"
+
 import BgTitle from '@components/BgTitle'
 // copy and rename this component to create your own section
 // don't forget to add your component in index.tsx
